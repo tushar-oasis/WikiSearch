@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnKeyListene
             public void onItemClick(WikiItem item) {
 
                 Log.i("Item clicked: ", item.getTitle());
-                Toast.makeText(MainActivity.this, "Loading wiki page for: " + item.getTitle(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Loading wiki page for " + item.getTitle(), Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(MainActivity.this, WikiDetailsActivity.class);
                 intent.putExtra(Constants.PAGEID, Integer.toString(item.getPageId()));
