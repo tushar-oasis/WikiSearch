@@ -1,2 +1,2 @@
 # WikiSearch
-A simple app to search through Wikipedia
+An app to search through Wikipedia
